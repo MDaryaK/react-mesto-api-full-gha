@@ -1,0 +1,26 @@
+.auth__form_input {
+    width: 100%;
+  
+    margin-top: 30px;
+    padding-bottom: 11px;
+  
+    color: #CCC;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #CCC;
+  
+    background: transparent;
+  }
+  
+  .auth__form_input:first-child {
+    margin-top: 0;
+  }
+  
+  .auth__form_input::placeholder {
+    color: #CCC;
+  }

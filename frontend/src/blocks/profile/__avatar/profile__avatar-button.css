@@ -1,0 +1,34 @@
+.profile__avatar-button {
+background-color: inherit;
+object-fit: cover;
+border: 0;
+border-radius: 50%;
+padding: 0;
+overflow: hidden;
+position: relative;
+}
+
+.profile__avatar-button::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.profile__avatar-button:hover::before {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .8);
+
+    background: url(../../../images/add-button.svg) 50%/26px no-repeat;
+    background-position: center;
+    transition: ease-in .3s;
+  }
+
+  @media (max-width: 502px) {
+    .profile__avatar-button {
+      margin-bottom: 26px;
+    }
+}
