@@ -13,4 +13,4 @@ IP-адрес 158.160.32.66
 
 Frontend https://mesto-darya.nomoredomainsicu.ru/
 
-Backend  https://api.mesto-darya.nomoredomainsicu.ru/
+Backend  https://api.mesto-darya.nomoredomainsicu.ru/crash-test
